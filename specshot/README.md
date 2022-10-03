@@ -7,6 +7,6 @@
   output = specshot(mel_spec)
 ```
 
-![Alt text](specshot/melspec_2.png?raw=true "Before applying SpecShot")
+![plot](specshot/melspec_2.png?raw=true "Before applying SpecShot")
 
-![Alt text](specshot/melspec_augment_2.png?raw=true "After applying SpecShot")
+![plot](specshot/melspec_augment_2.png?raw=true "After applying SpecShot")

@@ -12,6 +12,6 @@
 ![plot](melspec_augment_2.png?raw=true "After applying SpecShot")
 
 <p align="center">
-  <img src="specshot/melspec_2.png" width="350" title="Before applying SpecShot">
-  <img src="specshot/melspec_augment_2.png" width="350" alt="After applying SpecShot">
+  <img src="melspec_2.png" width="350" title="Before applying SpecShot">
+  <img src="melspec_augment_2.png" width="350" alt="After applying SpecShot">
 </p>

@@ -1,0 +1,28 @@
+path: /mnt/d/duy/data/OAD_2204/8h/audios
+outpath: /mnt/d/duy/data/OAD_2204/8h/audios_perturbated_free
+nj: 4
+perturbation: rand_perturbation
+perturbation_conf:
+  max_transformers: 2
+  sr: 16000
+  channel: 1
+  transformers:
+    - perturbation: randvol
+      perturbation_conf:
+        start_prob: 0.01
+        max_start_pos: 500
+        # max_segment_span: 1600
+        # max_total_span: 1500000
+        min_ratio: 0.1
+        max_ratio: 10
+
+    - perturbation: pitch
+      perturbation_conf:
+        n_semitones_min: -3.0
+        n_semitones_max: 3.0
+
+    - perturbation: speed
+
+    - perturbation: tempo
+      perturbation_conf:
+        audio_type: speech

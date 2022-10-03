@@ -7,10 +7,6 @@
   output = specshot(mel_spec)
 ```
 
-![plot](melspec_2.png?raw=true "Before applying SpecShot")
-
-![plot](melspec_augment_2.png?raw=true "After applying SpecShot")
-
 <p align="center">
   <img src="melspec_2.png" width="350" title="Before applying SpecShot">
   <img src="melspec_augment_2.png" width="350" alt="After applying SpecShot">

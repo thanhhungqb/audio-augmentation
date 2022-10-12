@@ -1,0 +1,4 @@
+sox
+tqdm
+soundfile
+librosa

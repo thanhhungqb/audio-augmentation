@@ -1,5 +1,7 @@
 ## Usage
 
+An object of class SpecShot randomly choose and mask some pixels. It is a sub-class of torch.nn.Module but skip gradient (at this module) while training.
+
 ```
   audio, sample_rate = librosa.load(example_file, sr=16000)
   mel_spec = librosa.feature.melspectrogram(audio, sr=16000)

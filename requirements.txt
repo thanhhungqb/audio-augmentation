@@ -2,3 +2,5 @@ sox
 tqdm
 soundfile
 librosa
+numpy
+random
